@@ -15,7 +15,9 @@
 			{% endif %}
 			<div class="divider"></div>
 		</div>
-		<p class="headerName">{{ site.app_name }}</p>
+		<p class="headerName">
+			<img src="{{ site.app_horizontal | relative_url }}" title="{{ site.app_name }}" />`
+		</p>
 	</div>
 	<nav class="scroll">
 		<ul>
@@ -25,7 +27,7 @@
 				{% endif %}
 			{% endfor %}
 			{% if site.presskit_download_link %}
-				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
+				<li><a href="{{ site.presskit_download_link }}">Press</a></li>
 			{% endif %}
 		</ul>
 	</nav>
