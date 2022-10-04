@@ -11,6 +11,7 @@ presskit_download_link                    : https://energeticbubble.com         
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/Logo-512.png # assets/appicon.png      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_favicon                               : assets/favicon.ico
 app_name                                  : Energetic Bubble                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Energetic bubble
