@@ -253,7 +253,7 @@ nav > ul li a:active {
 @media only screen and (max-width: 992px) {
 
 	.appInfo {
-		padding-top: 50px;
+		padding-top: 2px;
 		justify-content: center;
 	}
 
@@ -343,6 +343,7 @@ nav > ul li a:active {
 
 	.downloadButtonsContainer {
 		text-align: center;
+		margin-top: 5px;
 	}
 	
 } 
@@ -351,12 +352,19 @@ nav > ul li a:active {
 	height: 75px;
 	margin-right: 24px;
 }
+.appStore {
+	height: 75px;
+}
 
 @media only screen and (max-width: 992px) {
 
 	.playStore {
 		margin-right: 24px;
 		margin-bottom: 0px;
+		height: 70px;
+	}
+	.appStore {
+		height: 70px;
 	}
 	
 } 
@@ -365,14 +373,16 @@ nav > ul li a:active {
 
 	.playStore {
 		margin-right: 0px;
-		margin-bottom: 24px;
+		margin-bottom: 0px;
+		height: 30px;
+	}
+	.appStore {
+		height: 30px;
 	}
 	
 } 
 
-.appStore {
-	height: 75px;
-}
+
 
 
 
