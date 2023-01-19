@@ -41,31 +41,121 @@ features                                  :
   - title                                 : MyEnergeticPathway
     description                           : Photo based scan your personal profile read out
     icon_name                             : assets/logo-brown-50-80.png
+    id                                    : myenergeticpathway
     
   - title                                 : Who do we serve?
     description                           : Interest in energetic well being
     icon_name                             : assets/logo-red-50-80.png
+    id                                    : who_do_we_serve
 
   - title                                 : How does it work
     description                           : Designed to read your Energetic Self
     icon_name                             : assets/logo-blue-50-80.png
+    id                                    : how_does_it_work
 
   - title                                 : What do I get?
     description                           : Variety of outputs
     icon_name                             : assets/logo-yellow-50-80.png
+    id                                    : what_do_i_get
 
   - title                                 : What are the timelines?
     description                           : Two business days return
     icon_name                             : assets/logo-green-50-80.png
+    id                                    : what_are_the_timelines
   
   - title                                 : What are the costs?
     description                           : Value for money
     icon_name                             : assets/logo-blue-50-80.png
+    id                                    : what_are_the_costs
 
   - title                                 : Terms & conditions
     description                           : Privacy and confidentiality
     icon_name                             : assets/logo-orange-50-80.png
+    id                                    : terms_conditions
 
+#featuresdescriptions 
+featuresdescriptions                      :
+
+  - title                                 : MyEnergeticPathway
+    subtitle                              : Scan and get your personal profile
+    bulletpoints                          :
+      - feature                           : Je persoonlijke vitaliteitscan op een unieke manier op basis van een foto.
+      - feature                           : Tap into your body’s own innate energy and listen to what it is telling you
+      - feature                           : Possibilities and godals 
+      - feature                           : Aangereikt in een duidelijke analyse
+      - feature                           : Start naar zelfonderzoek, of verdere verdieping, eerste kennismaking 
+      - feature                           : Geen lange coachingsessies, maar meteen vanuit je onderbewustzijn omhoog gebracht /to the point emotional & mental profile and balancing your  emotions
+      - feature                           : Vanuit je onderbewustzijn bewust worden van wat je nodig hebt (doel) in het leven
+      - feature                           : Aanwijzingen op MEF (dis)balans
+      - feature                           : Additional personal coaching assistant
+    icon_name                             : assets/logo-brown-50-80.png
+    id                                    : myenergeticpathway
+  
+  - title                                 : Who do we serve?
+    description                           : Interest in energetic well being
+    bulletpoints                          :
+      - feature                           : Is your interest in your physical well being or more towards your mental and emotional blueprint?
+      - feature                           : And are you
+      - feature                           : Interessed in what quantum technology can bring for yourself or as a therapist
+      - feature                           : Looking to start a journey in quantum technology for vitality and energetic well being?
+      - feature                           : A professional and looking to grow and develop your leadership skills?
+    icon_name                             : assets/logo-red-50-80.png
+    id                                    : who_do_we_serve
+
+  - title                                 : How does it work
+    description                           : Designed to read your Energetic Self
+
+    bulletpoints                          :
+      - feature                           : Geen lange coachingsessies, maar meteen vanuit je onderbewustzijn omhoog gebracht /to the point emotional & mental profule
+      - feature                           : Vanuit je onderbewustzijn bewust worden van wat je nodig hebt (doel) in het leven
+      - feature                           : Aanwijzingen op MEF (dis)balans
+      - feature                           : Om tot de scan te komen wordt 3e generatie kwantum apparatuur ingezet
+      - feature                           : As soon the photo arrives our team will run a detailed scan through the non lineair quantum machines will run a do een analyse die gepresenteerd wordt in de app. Within two business days you basically have the key outcomes of your mental and emotional well being
+      - feature                           : to get you an insight in your to the point emotional & mental profile and give you feeback how you gen balance your emotions
+      - feature                           : The quantum technology works on the basis of your specific state of being at the time we offer you this feedback
+      - feature                           : The quantum technology uses the photo to profile your blueprint and we as a team 
+    icon_name                             : assets/logo-blue-50-80.png
+    id                                    : how_does_it_work
+
+  - title                                 : What do I get?
+    description                           : Variety of outputs
+    bulletpoints                          :
+      - feature                           : is your interest in your physical well being or more towards your mental and emotional blueprint? 
+      - feature                           : An energetic read out of your well being in a variety of subjects
+      - feature                           : Such as chakra, emotional
+      - feature                           : BodyChakra
+      - feature                           : Relatie matrix
+      - feature                           : Conflict matrix
+      - feature                           : Do you like to get the information from your onderbewustzijn
+      - feature                           : What if your onderbewustzijn tell you what you are occupief with
+      - feature                           : And how can it be different with je bewustzijn
+      - feature                           : Do you know your specific fear under stress and what can you do about it
+      - feature                           : Best suggested remedies
+    icon_name                             : assets/logo-yellow-50-80.png
+    id                                    : what_do_i_get
+
+  - title                                 : What are the timelines?
+    description                           : Two business days return
+    bulletpoints                          :
+      - feature                           : After we received the scan request. It will take two business days for the results to be returned .
+      - feature                           : A request received after nine AM CET will be processed in the next day
+    icon_name                             : assets/logo-green-50-80.png
+    id                                    : what_are_the_timelines
+
+  - title                                 : What are the costs?
+    description                           : Value for money
+    bulletpoints                          :
+      - feature                           : The results you recieve are handled by a quantum professional with years of experience using high-end non-linear quantum technology. The outputs are unique and custom made and come with a broad range of different fields of expertise.
+      - feature                           : On our website you find more information on product and pricing
+    icon_name                             : assets/logo-blue-50-80.png
+    id                                    : what_are_the_costs
+  
+  - title                                 : Terms & conditions
+    description                           : Privacy and confidentiality
+    bulletpoints                          :
+      - feature                           : To be constructed on “how we protect the safety of your inputs” and “removal of data and photo after x weeks”….
+    icon_name                             : assets/logo-orange-50-80.png
+    id                                    : terms_conditions
 
 # Theme Settings
 topbar_color                              : "#000000"

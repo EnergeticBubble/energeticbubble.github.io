@@ -45,6 +45,7 @@
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
+		"d d d d d d d d d d d d"
 		"f f f f f f f f f f f f";
 }
 
@@ -71,6 +72,7 @@
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
+			"d d d d d d d d d d d d"
 			"f f f f f f f f f f f f";
 	}
 }
@@ -612,6 +614,153 @@ nav > ul li a:active {
 	
 } 
 
+
+// Featuredescription List
+
+.features_descriptions {
+	grid-area: d;
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	margin-top: 93px;
+}
+
+.feature_descriptions {
+	padding-top: 41px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: flex;
+	flex-basis: 100%;
+}
+.feature_descriptionText h3{
+	font-size: 4rem;
+}
+.feature_descriptions_bg{
+	background-color: #f7f7f7;
+}
+.feature_descriptions_100_width{
+	display: flex;
+	flex-basis: 100%;
+}
+
+.feature_descriptions:nth-child(-n+3) {
+    padding-top: 0px;   
+}
+
+.feature_descriptions:nth-child(3n) {
+	padding-right: 0px;
+}
+
+.feature_descriptions:nth-child(3n+1) {
+	padding-left: 0px;
+}
+
+.iconBack {
+	color: $feature-icons-background-color;
+}
+
+.iconTop {
+	color: $feature-icons-foreground-color;
+}
+
+.socialIconBack {
+	color: $social-icons-background-color;
+}
+
+.socialIconTop {
+	color: $social-icons-foreground-color;
+}
+
+.featureText {
+	margin-left: 18px;
+}
+
+.featureText > h3 {
+	color: $feature-title-color;
+}
+
+.featureText > p {
+	color: $feature-text-color;
+	margin-top: 8px;
+	line-height: 1.5;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 15px;
+	}
+	
+	.feature:nth-child(3n+1) {
+		padding-left: 15px;
+	}
+	.feature_descriptionText h3{
+		font-size: 3rem;
+	}
+	
+}
+
+@media only screen and (max-width: 375px) {
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 0px;
+	}
+	
+	.feature:nth-child(3n+1) {
+		padding-left: 0px;
+	}
+	.feature_descriptionText h3{
+		font-size: 2rem;
+	}
+	
+} 
 
 
 // Footer

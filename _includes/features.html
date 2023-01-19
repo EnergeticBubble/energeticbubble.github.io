@@ -13,11 +13,48 @@
         </div>
         <div class="featureText">
             <h3>
+                <a href="#{{ feature.id }}" target="_self">{{ feature.title }}</a>
+            </h3>
+            <p>
+                {{ feature.description }}
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
+
+
+<div class="features_descriptions">
+
+    {% for feature in site.featuresdescriptions %}
+
+    {% if feature.title %}
+    <div class="feature_descriptions feature_descriptions_bg">
+        <div>
+            <img src="{{ feature.icon_name }}" />
+        </div>
+        <div class="feature_descriptionText " id="{{ feature.id }}">
+            <h3>
                 {{ feature.title }}
             </h3>
             <p>
                 {{ feature.description }}
             </p>
+        </div>
+        
+    </div>
+    <div class="feature_descriptions">
+        <div>
+            <ol>
+            {% for bullet in feature.bulletpoints %}
+                <li>
+                    {{bullet.feature}}
+                </li>
+            {% endfor %}
+            </ol>        
         </div>
     </div>
     {% endif %}
